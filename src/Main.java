@@ -1,20 +1,20 @@
 public class Main {
 
-    public static void printSeparator() {
-        System.out.println("+++++++++++++++++");
-        System.out.println("-----------------");
-    }
-
-    public static void printIssues(int issuesCount ) {
-        System.out.println(issuesCount);
-    }
-    public static int sum(int[] numbers) {
-        int sum = 0;
-        for (int i = 0; i < numbers.length; i++) {
-            sum = sum + numbers[i];
-        }
-        return sum;
-    }
+//    public static void printSeparator() {
+//        System.out.println("+++++++++++++++++");
+//        System.out.println("-----------------");
+//    }
+//
+//    public static void printIssues(int issuesCount ) {
+//        System.out.println(issuesCount);
+//    }
+//    public static int sum(int[] numbers) {
+//        int sum = 0;
+//        for (int i = 0; i < numbers.length; i++) {
+//            sum = sum + numbers[i];
+//        }
+//        return sum;
+//    }
 
     public static void checkerLeapYear(int yearChecker) {
         if (yearChecker % 100 == 0 && yearChecker % 400 == 0) {
@@ -61,26 +61,26 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        test1();
+//        test1();
         task1();
         task2();
         task3();
     }
 
-    public static void test1() {
-        System.out.println("Тестовые задачи");
-        int[] issuesByMonths = {4, 6, 7, 9, 2, 5, 12, 3, 7, 10, 6};
-        printSeparator();
-        for (int i = 0; i < issuesByMonths.length; i++) {
-            printIssues(issuesByMonths[i]);
-            if ((i + 1) % 3 == 0) {
-                printSeparator();
-            }
-        }
-        printSeparator();
-        int total = sum(issuesByMonths);
-        printIssues(total);
-    }
+//    public static void test1() {
+//        System.out.println("Тестовые задачи");
+//        int[] issuesByMonths = {4, 6, 7, 9, 2, 5, 12, 3, 7, 10, 6};
+//        printSeparator();
+//        for (int i = 0; i < issuesByMonths.length; i++) {
+//            printIssues(issuesByMonths[i]);
+//            if ((i + 1) % 3 == 0) {
+//                printSeparator();
+//            }
+//        }
+//        printSeparator();
+//        int total = sum(issuesByMonths);
+//        printIssues(total);
+//    }
     public static void task1() {
         System.out.println("Задача 1");
         int year = 2011;
